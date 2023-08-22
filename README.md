@@ -67,9 +67,9 @@ In this example, we are using PagerDuty service to get an alert in form of Phone
 There are many Youtube tutorials which will help you to achieve the above.
 
 In the following Config, add the following:
-1. Replace <PagerDuty-Events-API-V2-Integration-Key> with PagerDuty Integration key
-2. Replace <valoper-address> with your Valooper Address
-3. Replace tcp://<ip-address>:26657 with your validator ip with the correct port (Default is 26657
+1. Replace "PagerDuty-Events-API-V2-Integration-Key" with PagerDuty Integration key
+2. Replace "valoper-address" with your Valooper Address
+3. Replace tcp://ip-address:26657 with your validator ip with the correct port (Default is 26657
 
 ```
 ---
