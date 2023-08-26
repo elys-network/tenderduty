@@ -177,6 +177,7 @@ sudo journalctl -fu tenderduty
 
 ## Browser URL:
 To visit Tenderduty page -
-http://<ip-address>:8888
+http://ip-address:8888
+#Example - http://123.12.134.12:8888
 
 
