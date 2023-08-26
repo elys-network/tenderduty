@@ -175,5 +175,8 @@ sudo service tenderduty start
 sudo journalctl -fu tenderduty
 ```
 
+## Browser URL:
+To visit Tenderduty page -
+http://<ip-address>:8888
 
 
