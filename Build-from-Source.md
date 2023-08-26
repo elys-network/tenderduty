@@ -150,7 +150,7 @@ StartLimitBurst=10
 [Service]
 Type=simple
 User=node
-ExecStart=tenderduty -f /home/node/config.yml
+ExecStart=/home/node/go/bin/tenderduty -f /home/node/config.yml
 Restart=on-abort
 RestartSec=30
 
