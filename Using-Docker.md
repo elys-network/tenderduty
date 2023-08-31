@@ -57,17 +57,7 @@ docker run --rm ghcr.io/blockpane/tenderduty:latest -example-config >config.yml
 ## Edit config.yml and add Elsys Testnet details, notification methods etc. 
 NOTE: You can delete the existing ``config.yml`` file and create a new file using ``vim`` or ``nano``.
 
-In this example, we are using PagerDuty service to get an alert in form of Phone Call. You will need to register a free account with PagerDuty, 
-1. Register a free account at PagerDuty
-2. Add Contact info including a phone number
-3. Create Escalation Policy and add your profile to the Notify section
-4. Create a new Service under Service Directory and select the Escalation Policy created
-5. Select "Events API V2" option and create Service.
-6. Get the "Integration Key"
-
-There are many Youtube tutorials which will help you to achieve the above.
-
-In the following Config, add the following:
+In the ``config.yml`` file, add the following:
 1. Replace "PagerDuty-Events-API-V2-Integration-Key" with PagerDuty Integration key
 2. Replace "valoper-address" with your Valooper Address
 3. Replace tcp://ip-address:26657 with your validator ip with the correct port (Default is 26657
