@@ -143,4 +143,8 @@ chains:
 docker run -d --name tenderduty -p "8888:8888" -p "28686:28686" --restart unless-stopped -v $(pwd)/config.yml:/var/lib/tenderduty/config.yml ghcr.io/blockpane/tenderduty:latest
 ```
 
+## Browser URL:
+To visit Tenderduty page -
+http://ip-address:8888
+#Example - http://123.12.134.12:8888
 
