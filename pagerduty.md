@@ -20,7 +20,6 @@ The Pagerduty application offers two types of keys that can access their API. Te
 3. Select the PagerDuty Events API V2 Integration, hit Create Service
 
 <img src="https://raw.githubusercontent.com/elys-network/tenderduty/main/img/pd-integrate.png">
-<img src="https://raw.githubusercontent.com/elys-network/tenderduty/main/img/pd-policy.png">
 
 4. Copy the 32 character ``Integration Key`` into the config.yml file
 
